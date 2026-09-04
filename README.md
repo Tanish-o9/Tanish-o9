@@ -39,18 +39,22 @@
 
 ---
 
----
-
 # 🛠️ Tech Stack
 
 ### 🤖 AI Engineering
 
 <div>
+
 <img src="https://img.shields.io/badge/LLMs-6D28D9?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/AI_ENGINEERING-4C1D95?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/AI_APPLICATIONS-312E81?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/PROMPT_ENGINEERING-4338CA?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/AI_WORKFLOWS-5B21B6?style=for-the-badge">
+
 </div>
 
 <br>
@@ -58,14 +62,23 @@
 ### 🧠 Agentic AI
 
 <div>
+
 <img src="https://img.shields.io/badge/LANGCHAIN-1C3C3C?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/LANGGRAPH-1C3C3C?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/MULTI--AGENT_SYSTEMS-6D28D9?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/RAG-7C3AED?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/AI_MEMORY-581C87?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/TOOL_CALLING-4C1D95?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/MCP-312E81?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/LLM_ORCHESTRATION-4338CA?style=for-the-badge">
+
 </div>
 
 <br>
@@ -73,50 +86,9 @@
 ### ⚡ Automation
 
 <div>
+
 <img src="https://img.shields.io/badge/N8N-EA4B71?style=for-the-badge&logo=n8n&logoColor=white">
-</div>
 
-<br>
-
-### 🧠 Machine Learning & Deep Learning
-
-<div>
-<img src="https://img.shields.io/badge/MACHINE_LEARNING-2563EB?style=for-the-badge">
-<img src="https://img.shields.io/badge/DEEP_LEARNING-6D28D9?style=for-the-badge">
-<img src="https://img.shields.io/badge/NLP-4B5563?style=for-the-badge">
-<img src="https://img.shields.io/badge/SCIKIT--LEARN-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
-<img src="https://img.shields.io/badge/PYTORCH-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
-<img src="https://img.shields.io/badge/COMPUTER_VISION-111827?style=for-the-badge">
-</div>
-
-<br>
-
-### ☁️ DevOps & Cloud
-
-<div>
-<img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-<img src="https://img.shields.io/badge/GITHUB_ACTIONS-2088FF?style=for-the-badge&logo=github-actions&logoColor=white">
-</div>
-
-<br>
-
-### 🔎 Vector Databases & Search
-
-<div>
-<img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge">
-<img src="https://img.shields.io/badge/CHROMADB-111827?style=for-the-badge">
-<img src="https://img.shields.io/badge/RAG_SEARCH-7C3AED?style=for-the-badge">
-</div>
-
-<br>
-
-### 🗄️ Database
-
-<div>
-<img src="https://img.shields.io/badge/POSTGRESQL-336791?style=for-the-badge&logo=postgresql&logoColor=white">
-<img src="https://img.shields.io/badge/MONGODB-47A248?style=for-the-badge&logo=mongodb&logoColor=white">
-<img src="https://img.shields.io/badge/REDIS-DC382D?style=for-the-badge&logo=redis&logoColor=white">
-<img src="https://img.shields.io/badge/FIREBASE-FFCA28?style=for-the-badge&logo=firebase&logoColor=black">
 </div>
 
 <br>
@@ -124,10 +96,15 @@
 ### 🎨 Frontend
 
 <div>
+
 <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+
 <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+
 <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+
 <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+
 </div>
 
 <br>
@@ -135,9 +112,75 @@
 ### ⚙️ Backend
 
 <div>
+
 <img src="https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
+
 <img src="https://img.shields.io/badge/DJANGO-092E20?style=for-the-badge&logo=django&logoColor=white">
+
 <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge">
+
+</div>
+
+<br>
+
+### 🗄️ Database
+
+<div>
+
+<img src="https://img.shields.io/badge/POSTGRESQL-336791?style=for-the-badge&logo=postgresql&logoColor=white">
+
+<img src="https://img.shields.io/badge/MONGODB-47A248?style=for-the-badge&logo=mongodb&logoColor=white">
+
+<img src="https://img.shields.io/badge/REDIS-DC382D?style=for-the-badge&logo=redis&logoColor=white">
+
+<img src="https://img.shields.io/badge/FIREBASE-FFCA28?style=for-the-badge&logo=firebase&logoColor=black">
+
+</div>
+
+<br>
+
+### 🔎 Vector Databases & Search
+
+<div>
+
+<img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/CHROMADB-111827?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/RAG_SEARCH-7C3AED?style=for-the-badge">
+
+</div>
+
+<br>
+
+### 🧠 Machine Learning & Deep Learning
+
+<div>
+
+<img src="https://img.shields.io/badge/MACHINE_LEARNING-2563EB?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/DEEP_LEARNING-6D28D9?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/NLP-4B5563?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/SCIKIT--LEARN-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
+
+<img src="https://img.shields.io/badge/PYTORCH-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+
+<img src="https://img.shields.io/badge/COMPUTER_VISION-111827?style=for-the-badge">
+
+</div>
+
+<br>
+
+### ☁️ DevOps & Cloud
+
+<div>
+
+<img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+
+<img src="https://img.shields.io/badge/GITHUB_ACTIONS-2088FF?style=for-the-badge&logo=github-actions&logoColor=white">
+
 </div>
 
 <br>
@@ -145,10 +188,15 @@
 ### 👨‍💻 Languages
 
 <div>
+
 <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white">
+
 <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white">
+
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
+
 <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+
 </div>
 
 ---
@@ -180,14 +228,23 @@
 I practice **Data Structures & Algorithms** and maintain my solutions on LeetCode.
 
 <div>
+
 <img src="https://img.shields.io/badge/ARRAYS-2563EB?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/STRINGS-7C3AED?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/LINKED_LISTS-059669?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/TREES-0891B2?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/GRAPHS-DC2626?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/RECURSION-EA580C?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/DYNAMIC_PROGRAMMING-DB2777?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/BINARY_SEARCH-4F46E5?style=for-the-badge">
+
 </div>
 
 <br>
@@ -195,11 +252,15 @@ I practice **Data Structures & Algorithms** and maintain my solutions on LeetCod
 <div align="center">
 
 <a href="https://leetcode.com/u/Tanish_Kumar_123/" target="_blank">
+
 <img src="https://img.shields.io/badge/VIEW_LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=white">
+
 </a>
 
 <a href="https://github.com/Tanish-o9/Leetcode-Solution" target="_blank">
+
 <img src="https://img.shields.io/badge/DSA_REPOSITORY-24292F?style=for-the-badge&logo=github&logoColor=white">
+
 </a>
 
 </div>
@@ -226,7 +287,7 @@ I practice **Data Structures & Algorithms** and maintain my solutions on LeetCod
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Tanish-o9&theme=tokyo-night&hide_border=true&area=true"/>
+<img src="https://ghchart.rshah.org/6D28D9/Tanish-o9" alt="Tanish Kumar's GitHub Contribution Graph" />
 
 </div>
 
@@ -237,19 +298,27 @@ I practice **Data Structures & Algorithms** and maintain my solutions on LeetCod
 <div align="center">
 
 <a href="https://www.linkedin.com/in/tanish-kumar-61553b385/" target="_blank">
+
 <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+
 </a>
 
 <a href="https://leetcode.com/u/Tanish_Kumar_123/" target="_blank">
+
 <img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=white">
+
 </a>
 
 <a href="mailto:tanishrajput673@gmail.com">
+
 <img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+
 </a>
 
 <a href="https://github.com/Tanish-o9" target="_blank">
+
 <img src="https://img.shields.io/badge/GITHUB-24292F?style=for-the-badge&logo=github&logoColor=white">
+
 </a>
 
 <br><br>
