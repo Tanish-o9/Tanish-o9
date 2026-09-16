@@ -30,7 +30,7 @@
 - 🎓 B.Tech CSE @ **AKGEC (AKTU)** — CGPA: **8.50**
 - 🚀 Built production apps
 - 💡 Skilled in **Agentic AI, Automation**
-- 🏆 LeetCode **130+ problems solved**
+- 🏆 LeetCode **140+ problems solved**
 - 👥 Member **Cloud Computing Cell (CCC)** at AKGEC
 - 📫 [**tanishrajput673@gmail.com**](mailto:tanishrajput673@gmail.com) | Open to **AI Engineer Internships**
 
