@@ -41,10 +41,11 @@
 **🤖 AI Engineering** &nbsp;
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/LLMs-6D28D9?style=flat-square">
-<img src="https://img.shields.io/badge/AI_Engineering-4C1D95?style=flat-square">
 <img src="https://img.shields.io/badge/AI_Applications-312E81?style=flat-square">
 <img src="https://img.shields.io/badge/Prompt_Engineering-4338CA?style=flat-square">
 <img src="https://img.shields.io/badge/AI_Workflows-5B21B6?style=flat-square">
+<img src="https://img.shields.io/badge/LLM%20Gateway-0EA5E9?style=flat"/>
+<img src="https://img.shields.io/badge/LLM%20Evaluation-14B8A6?style=flat"/>
 
 **🧠 Agentic AI** &nbsp;
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square">
@@ -54,7 +55,6 @@
 <img src="https://img.shields.io/badge/AI_Memory-581C87?style=flat-square">
 <img src="https://img.shields.io/badge/Tool_Calling-4C1D95?style=flat-square">
 <img src="https://img.shields.io/badge/MCP-312E81?style=flat-square">
-<img src="https://img.shields.io/badge/LLM_Orchestration-4338CA?style=flat-square">
 
 **⚡ Automation** &nbsp;
 <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white">
@@ -101,17 +101,17 @@
 
 ---
 
-# 🎯 Current Focus
+## 🎯 Current Focus
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/AI_ENGINEERING-4C1D95?style=flat-square">
-<img src="https://img.shields.io/badge/AGENTIC_AI-6D28D9?style=flat-square">
-<img src="https://img.shields.io/badge/MULTI--AGENT_SYSTEMS-7C3AED?style=flat-square">
-<img src="https://img.shields.io/badge/LLMs-4338CA?style=flat-square">
-<img src="https://img.shields.io/badge/RAG-8B5CF6?style=flat-square">
-<img src="https://img.shields.io/badge/AI_MEMORY-581C87?style=flat-square">
-<img src="https://img.shields.io/badge/AI_ORCHESTRATION-312E81?style=flat-square">
+![AGENTIC AI](https://img.shields.io/badge/AGENTIC%20AI-7C3AED?style=flat-square)
+![MULTI-AGENT SYSTEMS](https://img.shields.io/badge/MULTI--AGENT%20SYSTEMS-8B5CF6?style=flat-square)
+![LLMs](https://img.shields.io/badge/LLMs-4F46E5?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-8B5CF6?style=flat-square)
+![AI MEMORY](https://img.shields.io/badge/AI%20MEMORY-6D28D9?style=flat-square)
+![LLM GATEWAY](https://img.shields.io/badge/LLM%20GATEWAY-0EA5E9?style=flat-square)
+![LLM EVALUATION](https://img.shields.io/badge/LLM%20EVALUATION-14B8A6?style=flat-square)
 
 </div>
 
