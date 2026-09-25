@@ -31,7 +31,6 @@
 - 🚀 Built production apps
 - 💡 Skilled in **Agentic AI, Automation**
 - 🏆 LeetCode **146+ problems solved**
-- 👥 Member **Cloud Computing Cell (CCC)** at AKGEC
 - 📫 [**tanishrajput673@gmail.com**](mailto:tanishrajput673@gmail.com) | Open to **AI Engineer Internships**
 
 ---
