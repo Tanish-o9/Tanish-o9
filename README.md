@@ -27,7 +27,7 @@
 
 # 👨‍💻 About Me
 
-- 🎓 B.Tech CSE @ **AKGEC (AKTU)** — CGPA: **8.50**
+- 🎓 B.Tech CSE @ **(AKTU)** — CGPA: **8.50**
 - 🚀 Built production apps
 - 💡 Skilled in **Agentic AI, Automation**
 - 🏆 LeetCode **160+ problems solved**
