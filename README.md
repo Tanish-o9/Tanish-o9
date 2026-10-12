@@ -49,6 +49,7 @@
 **🧠 Agentic AI** &nbsp;
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square">
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square">
+<img src="https://img.shields.io/badge/Crew AI-6D28D9?style=flat-square">
 <img src="https://img.shields.io/badge/Multi--Agent_Systems-6D28D9?style=flat-square">
 <img src="https://img.shields.io/badge/RAG-7C3AED?style=flat-square">
 <img src="https://img.shields.io/badge/AI_Memory-581C87?style=flat-square">
