@@ -108,6 +108,12 @@ $ gh repo list Tanish-o9 --pinned
 <a href="https://github.com/Tanish-o9/Knowledge-Distillation-Lab"><img src="./assets/cards/knowledge-distillation-lab.svg" alt="Knowledge-Distillation-Lab" width="49%"/></a>
 <a href="https://github.com/Tanish-o9/Agentic-Ai"><img src="./assets/cards/agentic-ai.svg" alt="Agentic-Ai" width="49%"/></a>
 
+<br/>
+
+[![Live Benchmark Demo](https://img.shields.io/badge/Demo-vLLM%20Serving%20Stack-0F172A?style=for-the-badge&logo=fastapi&logoColor=009688&labelColor=0F172A)](https://github.com/Tanish-o9/High-Throughput-LLM-Serving)
+[![QUANTORA Platform](https://img.shields.io/badge/Platform-QUANTORA%20Optimizer-0F172A?style=for-the-badge&logo=pytorch&logoColor=EE4C2C&labelColor=0F172A)](https://github.com/Tanish-o9/QUANTORA)
+[![Agentic RAG](https://img.shields.io/badge/Agent-LangGraph%20RAG-0F172A?style=for-the-badge&logo=langchain&logoColor=white&labelColor=0F172A)](https://github.com/Tanish-o9/Agentic-Ai)
+
 </div>
 
 #### 🔍 **`inspect(projects)`**
@@ -213,6 +219,21 @@ flowchart LR
 
 </details>
 
+#### ⚡ **`benchmarks.log`**
+
+```text
+$ vllm-benchmark --model mistralai/Mistral-7B-v0.1 --sweep-concurrency 1,16,32,64
+┌──────────────────────────────┬────────────┬─────────────┬──────────────┬──────────────┐
+│ Serving Stack / Precision    │ Users (BS) │ TTFT (ms)   │ TPS (tok/s)  │ VRAM Peak    │
+├──────────────────────────────┼────────────┼─────────────┼──────────────┼──────────────┤
+│ Naive HF Pipeline (FP16)     │ 16         │ 142.6 ms    │ 28.4 tok/s   │ 19.8 GB      │
+│ vLLM + PagedAttention (FP16) │ 16         │ 32.1 ms     │ 118.5 tok/s  │ 12.4 GB      │
+│ vLLM + AWQ Quantized (INT4)  │ 32         │ 18.2 ms     │ 142.8 tok/s  │ 6.8 GB       │
+│ vLLM + FP8 KV-Cache (INT4)   │ 64         │ 21.4 ms     │ 189.2 tok/s  │ 7.9 GB       │
+└──────────────────────────────┴────────────┴─────────────┴──────────────┴──────────────┘
+✓ Metrics: 4.8x higher throughput · 65% VRAM saved · zero output quality degradation
+```
+
 #### 🗂️ **`also_built.py`**
 
 ```python
@@ -295,9 +316,27 @@ for skill, progress in roadmap.items():
 <img src="https://github-readme-stats.vercel.app/api?username=Tanish-o9&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="165" alt="stats"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tanish-o9&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="top languages"/>
 <br/>
-<img src="https://streak-stats.demolab.com?user=Tanish-o9&theme=tokyonight&hide_border=true" alt="streak"/>
+<img src="https://leetcard.jacoblin.cool/Tanish_Kumar_123?theme=dark&font=Fira%20Code" height="165" alt="LeetCode stats"/>
+<img src="https://streak-stats.demolab.com?user=Tanish-o9&theme=tokyonight&hide_border=true" height="165" alt="streak"/>
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/Tanish-o9/Tanish-o9/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution grid snake" width="100%"/>
 
 </div>
+
+---
+
+### 🏆 **`achievements.env`**
+
+```bash
+$ cat ~/.achievements.env
+HACKATHONS="LNMIIT Finalist · Smart India Hackathon (SIH)"
+COMMUNITY="Cloud Computing Cell (CCC), AKGEC"
+LEETCODE="130+ Problems Solved · Top Algorithms Track"
+ACADEMICS="B.Tech CSE @ AKGEC (AKTU) · 8.50 CGPA · AI/ML Focus"
+OPEN_SOURCE="6 Core LLM Infrastructure Repositories Built"
+```
 
 ---
 
@@ -314,7 +353,18 @@ $ ./connect.sh
 📫 Email     → tanishrajput673@gmail.com
 💼 LinkedIn  → linkedin.com/in/tanish-kumar-61553b385
 🧩 LeetCode  → leetcode.com/u/Tanish_Kumar_123
+
+$ curl -sL https://github.com/Tanish-o9/Tanish-o9/raw/main/assets/resume.pdf -o Tanish_Kumar_Resume.pdf
+# [========================================>] 100% · Resume downloaded successfully!
 ```
+
+<div align="center">
+
+[![Download Resume](https://img.shields.io/badge/Resume-Download%20PDF-8B5CF6?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=0F172A)](https://github.com/Tanish-o9/Tanish-o9/raw/main/assets/resume.pdf)
+[![Connect on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0F172A)](https://www.linkedin.com/in/tanish-kumar-61553b385/)
+[![Email Direct](https://img.shields.io/badge/Email-Direct%20Inquiry-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F172A)](mailto:tanishrajput673@gmail.com)
+
+</div>
 
 <div align="center">
 
