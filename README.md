@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:312E81,100:8B5CF6&height=230&section=header&text=TANISH%20KUMAR&fontSize=58&fontColor=FFFFFF&fontAlignY=38&desc=AI%20Engineer%20%7C%20LLM%20Systems%20%7C%20Agentic%20AI%20%7C%20RAG&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="Tanish Kumar - AI Engineer"/>
+<img src="./assets/header.svg" width="100%" alt="Tanish Kumar - AI Engineer"/>
 
 <a href="https://github.com/Tanish-o9"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=800&color=8B5CF6&center=true&vCenter=true&width=900&lines=Making+LLMs+faster%2C+smaller+and+cheaper+to+run;vLLM+%C2%B7+PagedAttention+%C2%B7+KV+Cache+%C2%B7+Quantization+%C2%B7+LoRA;Building+autonomous+agents+with+LangGraph+%26+RAG;Open+to+AI+Engineer+Internships+%F0%9F%9F%A2" alt="typing intro"/></a>
 
@@ -59,7 +59,7 @@ print(Tanish().status)   # >>> 🟢 Open to AI Engineer Internships
 
 ### 🧬 `pipeline.mmd`
 
-Every pinned project below is one stage of the same idea: take an LLM from raw data to a fast, cheap, production-ready service.
+Every pinned project below is one stage of the same idea: take an **LLM from raw data to a fast, cheap, production-ready service**.
 
 ```mermaid
 flowchart LR
@@ -275,7 +275,7 @@ for skill, progress in roadmap.items():
     print(f"{skill:<36} {progress}")
 ```
 
-📚 Daily practice → [**LeetCode**](https://leetcode.com/u/Tanish_Kumar_123/) · [**DSA Repository**](https://github.com/Tanish-o9/Leetcode-Solution)
+📚 **Daily practice** → [**LeetCode**](https://leetcode.com/u/Tanish_Kumar_123/) · [**DSA Repository**](https://github.com/Tanish-o9/Leetcode-Solution)
 
 ---
 
@@ -314,6 +314,6 @@ while True:
     clean(); finetune(); optimize(); serve(); ship()   # ⚡ Faster LLMs. Smarter Agents. Production-ready AI.
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:312E81,100:0F172A&height=120&section=footer" width="100%" alt="footer"/>
+<img src="./assets/footer.svg" width="100%" alt="footer"/>
 
 </div>
