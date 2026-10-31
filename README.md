@@ -2,7 +2,7 @@
 
 <img src="./assets/header.svg" width="100%" alt="Tanish Kumar - AI Engineer"/>
 
-<a href="https://github.com/Tanish-o9"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=800&color=8B5CF6&center=true&vCenter=true&width=900&lines=Making+LLMs+faster%2C+smaller+and+cheaper+to+run;vLLM+%C2%B7+PagedAttention+%C2%B7+KV+Cache+%C2%B7+Quantization+%C2%B7+LoRA;Building+autonomous+agents+with+LangGraph+%26+RAG;Open+to+AI+Engineer+Internships+%F0%9F%9F%A2" alt="typing intro"/></a>
+<a href="https://github.com/Tanish-o9"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=800&color=8B5CF6&center=true&vCenter=true&width=900&lines=Architecting+Production+AI+Systems+%26+Autonomous+Agents;PyTorch+%C2%B7+vLLM+%C2%B7+LangGraph+%C2%B7+RAG+%C2%B7+Fine-Tuning+%C2%B7+LoRA;Multi-Agent+Orchestration+%C2%B7+High-Throughput+Inference;Open+to+AI+Engineer+Roles+%26+Internships+%F0%9F%9F%A2" alt="typing intro"/></a>
 
 <br/>
 
@@ -45,17 +45,17 @@ class Tanish:
     community: str   = "Cloud Computing Cell (CCC), AKGEC"
     dsa: str         = "180+ LeetCode problems solved (100+ Mediums)"
     core_stack: list = field(default_factory=lambda: [
-        "vLLM", "PagedAttention", "KV Cache", "LoRA", "FastAPI",
-        "LLM Gateways", "LLM Evals", "LangGraph", "CrewAI", "MCP"
+        "Python", "PyTorch", "vLLM", "LangGraph", "RAG & Vector DBs",
+        "LoRA / Fine-Tuning", "FastAPI", "Docker", "MCP"
     ])
     focus: list      = field(default_factory=lambda: [
-        "LLM Inference Optimization & Serving",
-        "LLM Gateways, Routing & Multi-Provider Failover",
-        "LLM Evaluations & Data Pipelines",
-        "Autonomous Multi-Agent Systems & MCP",
-        "RAG & Semantic Code Intelligence"
+        "LLM Systems, High-Performance Inference & Serving",
+        "Autonomous Multi-Agent Systems & Tool Calling (MCP)",
+        "Advanced RAG & Semantic Retrieval Pipelines",
+        "Model Adaptation: LoRA Fine-Tuning & Distillation",
+        "Production AI Infrastructure, Gateways & Evals"
     ])
-    mission: str     = "Accelerate inference, build bulletproof LLM gateways & orchestrate intelligent agents"
+    mission: str     = "Architecting scalable LLM systems, autonomous agents & production AI"
     status: str      = "🟢 Open to AI Engineer Internships"
 
     def ship(self, task):
@@ -93,7 +93,7 @@ $ python -m agent.eval --query "Summarize Tanish's AI engineering capabilities"
 
 ### 🧬 **`pipeline.mmd`**
 
-Every pinned project below is one stage of the same idea: take an **LLM from raw data to a fast, cheap, production-ready service**.
+Comprehensive **AI Engineering Lifecycle**: from data engineering & fine-tuning to high-throughput inference & autonomous agentic systems.
 
 ```mermaid
 flowchart LR
