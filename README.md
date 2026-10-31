@@ -21,11 +21,13 @@
 [ 𝗢𝗞 ] 𝗟𝗼𝗮𝗱𝗶𝗻𝗴 𝗽𝗿𝗼𝗳𝗶𝗹𝗲 ............ 𝗧𝗮𝗻𝗶𝘀𝗵 𝗞𝘂𝗺𝗮𝗿
 [ 𝗢𝗞 ] 𝗠𝗼𝘂𝗻𝘁𝗶𝗻𝗴 𝗲𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻 ......... 𝗕.𝗧𝗲𝗰𝗵 𝗖𝗦𝗘 @ 𝗔𝗞𝗚𝗘𝗖 (𝗔𝗞𝗧𝗨) · 𝟴.𝟱𝟬 𝗖𝗚𝗣𝗔 · 𝗔𝗜/𝗠𝗟 𝗙𝗼𝗰𝘂𝘀
 [ 𝗢𝗞 ] 𝗦𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗰𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆 ......... 𝗖𝗹𝗼𝘂𝗱 𝗖𝗼𝗺𝗽𝘂𝘁𝗶𝗻𝗴 𝗖𝗲𝗹𝗹 (𝗖𝗖𝗖), 𝗔𝗞𝗚𝗘𝗖
-[ 𝗢𝗞 ] 𝗦𝘆𝗻𝗰𝗶𝗻𝗴 𝗗𝗦𝗔 ................ 𝟭𝟴𝟬+ 𝗟𝗲𝗲𝘁𝗖𝗼𝗱𝗲 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝘀 𝘀𝗼𝗹𝘃𝗲𝗱
+[ 𝗢𝗞 ] 𝗦𝘆𝗻𝗰𝗶𝗻𝗴 𝗗𝗦𝗔 ................ 𝟭𝟴𝟬+ 𝗟𝗲𝗲𝘁𝗖𝗼𝗱𝗲 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝘀 𝘀𝗼𝗹𝘃𝗲𝗱 (𝟭𝟬𝟬+ 𝗠𝗲𝗱𝗶𝘂𝗺𝘀)
 [ 𝗢𝗞 ] 𝗖𝗹𝗲𝗮𝗻𝗶𝗻𝗴 𝗱𝗮𝘁𝗮 .............. 𝗱𝗲𝗱𝘂𝗽 · 𝗣𝗜𝗜 𝗱𝗲𝘁𝗲𝗰𝘁𝗶𝗼𝗻 · 𝗱𝗲𝗰𝗼𝗻𝘁𝗮𝗺𝗶𝗻𝗮𝘁𝗶𝗼𝗻
-[ 𝗢𝗞 ] 𝗢𝗽𝘁𝗶𝗺𝗶𝘇𝗶𝗻𝗴 𝗺𝗼𝗱𝗲𝗹𝘀 .......... 𝗤𝘂𝗮𝗻𝘁𝗶𝘇𝗮𝘁𝗶𝗼𝗻 · 𝗟𝗼𝗥𝗔 · 𝗞𝗩 𝗰𝗮𝗰𝗵𝗲 · 𝗗𝗶𝘀𝘁𝗶𝗹𝗹𝗮𝘁𝗶𝗼𝗻
+[ 𝗢𝗞 ] 𝗢𝗽𝘁𝗶𝗺𝗶𝘇𝗶𝗻𝗴 𝗺𝗼𝗱𝗲𝗹𝘀 .......... 𝗤𝘂𝗮𝗻𝘁𝗶𝘇𝗮𝘁𝗶𝗼𝗻 · 𝗟𝗼𝗥𝗔 · 𝗞𝗩 𝗰𝗮𝗰𝗵𝗲 · 𝗣𝗿𝘂𝗻𝗶𝗻𝗴
 [ 𝗢𝗞 ] 𝗦𝗲𝗿𝘃𝗶𝗻𝗴 𝗮𝘁 𝘀𝗰𝗮𝗹𝗲 ........... 𝗙𝗮𝘀𝘁𝗔𝗣𝗜 · 𝘃𝗟𝗟𝗠 · 𝗰𝗼𝗻𝘁𝗶𝗻𝘂𝗼𝘂𝘀 𝗯𝗮𝘁𝗰𝗵𝗶𝗻𝗴
-[ 𝗢𝗞 ] 𝗦𝗽𝗮𝘄𝗻𝗶𝗻𝗴 𝗮𝗴𝗲𝗻𝘁𝘀 ............ 𝗟𝗮𝗻𝗴𝗖𝗵𝗮𝗶𝗻 · 𝗟𝗮𝗻𝗴𝗚𝗿𝗮𝗽𝗵 · 𝗥𝗔𝗚 · 𝗠𝗖𝗣
+[ 𝗢𝗞 ] 𝗥𝗼𝘂𝘁𝗶𝗻𝗴 𝘁𝗿𝗮𝗳𝗳𝗶𝗰 ........... 𝗟𝗟𝗠 𝗚𝗮𝘁𝗲𝘄𝗮𝘆 · 𝗺𝘂𝗹𝘁𝗶-𝗽𝗿𝗼𝘃𝗶𝗱𝗲𝗿 𝗳𝗮𝗶𝗹𝗼𝘃𝗲𝗿
+[ 𝗢𝗞 ] 𝗘𝘃𝗮𝗹𝘂𝗮𝘁𝗶𝗻𝗴 𝗾𝘂𝗮𝗹𝗶𝘁𝘆 ......... 𝗽𝗲𝗿𝗽𝗹𝗲𝘅𝗶𝘁𝘆 𝗱𝗿𝗶𝗳𝘁 · 𝗲𝘃𝗮𝗹𝘀 · 𝗯𝗲𝗻𝗰𝗵𝗺𝗮𝗿𝗸𝘀
+[ 𝗢𝗞 ] 𝗦𝗽𝗮𝘄𝗻𝗶𝗻𝗴 𝗮𝗴𝗲𝗻𝘁𝘀 ............ 𝗟𝗮𝗻𝗴𝗚𝗿𝗮𝗽𝗵 · 𝗖𝗿𝗲𝘄𝗔𝗜 · 𝗠𝗖𝗣 · 𝗺𝘂𝗹𝘁𝗶-𝗮𝗴𝗲𝗻𝘁
 [ >> ] 𝗦𝘁𝗮𝘁𝘂𝘀 ..................... 🟢 𝗢𝗣𝗘𝗡 𝗧𝗢 𝗔𝗜 𝗘𝗡𝗚𝗜𝗡𝗘𝗘𝗥 𝗜𝗡𝗧𝗘𝗥𝗡𝗦𝗛𝗜𝗣𝗦
 ```
 
@@ -38,30 +40,53 @@ from dataclasses import dataclass, field
 
 @dataclass
 class Tanish:
-    role: str        = "AI Systems & Inference Engineer"
+    role: str        = "AI Systems & Autonomous Agents Engineer"
     education: str   = "B.Tech CSE @ AKGEC (AKTU) · 8.50 CGPA · AI/ML Focus"
     community: str   = "Cloud Computing Cell (CCC), AKGEC"
     dsa: str         = "180+ LeetCode problems solved (100+ Mediums)"
     core_stack: list = field(default_factory=lambda: [
-        "vLLM", "PagedAttention", "KV Cache", "LoRA", "FastAPI", "LangGraph"
+        "vLLM", "PagedAttention", "KV Cache", "LoRA", "FastAPI",
+        "LLM Gateways", "LLM Evals", "LangGraph", "CrewAI", "MCP"
     ])
     focus: list      = field(default_factory=lambda: [
-        "LLM Inference Optimization", "LLM Data Engineering",
-        "Agentic AI", "RAG", "Multi-Agent Systems"
+        "LLM Inference Optimization & Serving",
+        "LLM Gateways, Routing & Multi-Provider Failover",
+        "LLM Evaluations & Data Pipelines",
+        "Autonomous Multi-Agent Systems & MCP",
+        "RAG & Semantic Code Intelligence"
     ])
-    mission: str     = "Make LLMs faster, smaller and cheaper, then build agents on top"
+    mission: str     = "Accelerate inference, build bulletproof LLM gateways & orchestrate intelligent agents"
     status: str      = "🟢 Open to AI Engineer Internships"
 
-    def ship(self, idea):
+    def ship(self, task):
         return (
-            self.clean_data(idea)
-            | self.finetune()
-            | self.optimize_inference()
-            | self.serve_at_scale()
-            | self.deploy_agent()
+            self.clean_and_eval_data(task)
+            | self.finetune_or_distill()
+            | self.quantize_and_optimize()
+            | self.serve_with_vllm_gateway()
+            | self.orchestrate_mcp_agents()
         )
 
 print(Tanish().status)   # >>> 🟢 Open to AI Engineer Internships
+```
+
+---
+
+### 🤖 **`agent_query.py`** (Autonomous Portfolio Agent)
+
+```bash
+$ python -m agent.eval --query "Summarize Tanish's AI engineering capabilities"
+[AGENT STATE] Routing query via LLM Gateway -> Retrieval -> Synthesis...
+[EVALUATION METRICS] Relevance: 0.98 | Factuality: 1.00 | Latency: 24ms (vLLM)
+
+[AGENT RESPONSE]:
+  ┌────────────────────────────────────────────────────────────────────────────────────────┐
+  │ 1. LLM Systems & Inference: vLLM, PagedAttention, KV-cache tuning, AWQ/INT4, Pruning. │
+  │ 2. Gateways & Routing: Multi-provider failover, middleware, streaming, token budgets.  │
+  │ 3. LLM Evals & Data: Decontamination, PII filter, WikiText-2 perplexity drift analysis.│
+  │ 4. Multi-Agent & MCP: Model Context Protocol, LangGraph state machines, CrewAI agents. │
+  │ 5. Status: 🟢 Available for AI Engineer Internships & High-Impact Engineering Roles.   │
+  └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -234,6 +259,17 @@ $ vllm-benchmark --model mistralai/Mistral-7B-v0.1 --sweep-concurrency 1,16,32,6
 ✓ Metrics: 4.8x higher throughput · 65% VRAM saved · zero output quality degradation
 ```
 
+#### 📝 **`notes/engineering_logs.md`**
+
+```text
+$ ls -lh ~/notes/llm_engineering/
+-rw-r--r-- 1 tanish ai  4.2K  llm_gateways_multi_provider_routing_and_failover.md
+-rw-r--r-- 1 tanish ai  3.8K  evaluating_perplexity_drift_in_awq_int4_quantization.md
+-rw-r--r-- 1 tanish ai  5.1K  paged_attention_kernel_vs_kv_cache_fragmentation.md
+-rw-r--r-- 1 tanish ai  3.4K  mcp_agent_architecture_autonomous_code_intelligence.md
+-rw-r--r-- 1 tanish ai  4.6K  lora_rank_selection_and_target_module_ablations.md
+```
+
 #### 🗂️ **`also_built.py`**
 
 ```python
@@ -275,18 +311,35 @@ also_built = {
 </div>
 
 ```yaml
-llm_inference:      [vLLM, PagedAttention, Continuous Batching, KV Cache Optimization, Quantization (FP16/INT8/INT4), Latency + Memory Profiling]
-llm_data_eng:       [Dataset Validation, Deduplication, Quality Filtering, PII Detection, Decontamination, Synthetic Data]
-model_training:     [LoRA, Knowledge Distillation, Fine-Tuning, Benchmarking]
-agentic_ai:         [LangChain, LangGraph, Multi-Agent Systems, RAG, AI Memory, Tool Calling, MCP, LLM Orchestration, LLM Gateways]
-ai_engineering:     [Python, LLMs, Prompt Engineering, AI Workflows, AI Applications]
-ml_dl:              [Machine Learning, Deep Learning, NLP, Scikit-Learn, PyTorch, Computer Vision]
-vector_search:      [FAISS, ChromaDB, RAG Search]
-backend:            [FastAPI, Django, JWT]
+llm_inference:      [vLLM, PagedAttention, Continuous Batching, KV Cache Optimization, Quantization (FP16/INT8/INT4), Latency + Memory Profiling, Network Pruning]
+llm_gateway_eval:   [LLM Gateway, Multi-Provider Routing, Failover Middleware, WikiText-2 Perplexity Drift, LLM Evals, Quality Filtering]
+llm_data_eng:       [Dataset Validation, Deduplication, PII Detection, Data Decontamination, Synthetic Data Generation]
+model_training:     [LoRA Fine-Tuning, Knowledge Distillation, Target-Module Ablations, Model Benchmarking]
+agentic_ai_mcp:     [Model Context Protocol (MCP), LangGraph, LangChain, CrewAI, Multi-Agent Systems, RAG, AI Memory, Tool Calling]
+ai_engineering:     [Python, LLMs, Prompt Engineering, Autonomous Agents, AI Workflows, FastAPI]
+ml_dl:              [Machine Learning, Deep Learning, NLP, Computer Vision, PyTorch, Scikit-Learn]
+vector_search:      [FAISS, ChromaDB, Semantic Search, Hybrid RAG]
+backend:            [FastAPI, Django, REST APIs, JWT]
 database:           [PostgreSQL, MongoDB, Redis, Firebase]
-frontend:           [HTML, CSS, JavaScript, React]
-devops_cloud:       [Docker, GitHub Actions, n8n]
+devops_cloud:       [Docker, GitHub Actions, Linux, WSL2]
 languages:          [Python, C, C++, JavaScript, TypeScript]
+```
+
+---
+
+### 💻 **`neofetch.sh`** (AI Environment Specs)
+
+```bash
+$ neofetch --ai
+       _      _     _      tanish@ai-workstation
+     / \    / \   / \     ----------------------
+    ( A )  ( I ) ( O )    OS:        Ubuntu 24.04 LTS (x86_64) / WSL2
+     \ /    \ /   \ /     Runtime:   CUDA 12.4 · PyTorch 2.6 · Python 3.12
+      v      v     v      Engines:   vLLM 0.6.x · HuggingFace · Ollama · Torch-Pruning
+                          Agentic:   LangGraph · LangChain · CrewAI · FastMCP
+                          Routing:   LLM Gateway · Multi-Provider Router · FastAPI
+                          Evals:     WikiText-2 Perplexity · PII/Dedup · Custom Evals
+                          Host:      Cloud Computing Cell (CCC), AKGEC
 ```
 
 ---
@@ -385,6 +438,14 @@ $ curl -sL https://github.com/Tanish-o9/Tanish-o9/raw/main/assets/resume.pdf -o 
 ```python
 while True:
     clean(); finetune(); optimize(); serve(); ship()   # ⚡ Faster LLMs. Smarter Agents. Production-ready AI.
+```
+
+#### 🎧 **`now_playing.sh`**
+
+```bash
+$ mpc status
+▶ [Playing] Synthwave / Cyberpunk Lofi Coding Sessions
+[Volume: 80% · Latency: 0ms · Focus Mode: LOCKED IN ⚡]
 ```
 
 <img src="./assets/footer.svg" width="100%" alt="footer"/>
