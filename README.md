@@ -21,7 +21,7 @@
 [ 𝗢𝗞 ] 𝗟𝗼𝗮𝗱𝗶𝗻𝗴 𝗽𝗿𝗼𝗳𝗶𝗹𝗲 ............ 𝗧𝗮𝗻𝗶𝘀𝗵 𝗞𝘂𝗺𝗮𝗿
 [ 𝗢𝗞 ] 𝗠𝗼𝘂𝗻𝘁𝗶𝗻𝗴 𝗲𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻 ......... 𝗕.𝗧𝗲𝗰𝗵 𝗖𝗦𝗘 @ 𝗔𝗞𝗚𝗘𝗖 (𝗔𝗞𝗧𝗨) · 𝟴.𝟱𝟬 𝗖𝗚𝗣𝗔 · 𝗔𝗜/𝗠𝗟 𝗙𝗼𝗰𝘂𝘀
 [ 𝗢𝗞 ] 𝗦𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗰𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆 ......... 𝗖𝗹𝗼𝘂𝗱 𝗖𝗼𝗺𝗽𝘂𝘁𝗶𝗻𝗴 𝗖𝗲𝗹𝗹 (𝗖𝗖𝗖), 𝗔𝗞𝗚𝗘𝗖
-[ 𝗢𝗞 ] 𝗦𝘆𝗻𝗰𝗶𝗻𝗴 𝗗𝗦𝗔 ................ 𝟭𝟯𝟬+ 𝗟𝗲𝗲𝘁𝗖𝗼𝗱𝗲 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝘀 𝘀𝗼𝗹𝘃𝗲𝗱
+[ 𝗢𝗞 ] 𝗦𝘆𝗻𝗰𝗶𝗻𝗴 𝗗𝗦𝗔 ................ 𝟭𝟴𝟬+ 𝗟𝗲𝗲𝘁𝗖𝗼𝗱𝗲 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝘀 𝘀𝗼𝗹𝘃𝗲𝗱
 [ 𝗢𝗞 ] 𝗖𝗹𝗲𝗮𝗻𝗶𝗻𝗴 𝗱𝗮𝘁𝗮 .............. 𝗱𝗲𝗱𝘂𝗽 · 𝗣𝗜𝗜 𝗱𝗲𝘁𝗲𝗰𝘁𝗶𝗼𝗻 · 𝗱𝗲𝗰𝗼𝗻𝘁𝗮𝗺𝗶𝗻𝗮𝘁𝗶𝗼𝗻
 [ 𝗢𝗞 ] 𝗢𝗽𝘁𝗶𝗺𝗶𝘇𝗶𝗻𝗴 𝗺𝗼𝗱𝗲𝗹𝘀 .......... 𝗤𝘂𝗮𝗻𝘁𝗶𝘇𝗮𝘁𝗶𝗼𝗻 · 𝗟𝗼𝗥𝗔 · 𝗞𝗩 𝗰𝗮𝗰𝗵𝗲 · 𝗗𝗶𝘀𝘁𝗶𝗹𝗹𝗮𝘁𝗶𝗼𝗻
 [ 𝗢𝗞 ] 𝗦𝗲𝗿𝘃𝗶𝗻𝗴 𝗮𝘁 𝘀𝗰𝗮𝗹𝗲 ........... 𝗙𝗮𝘀𝘁𝗔𝗣𝗜 · 𝘃𝗟𝗟𝗠 · 𝗰𝗼𝗻𝘁𝗶𝗻𝘂𝗼𝘂𝘀 𝗯𝗮𝘁𝗰𝗵𝗶𝗻𝗴
@@ -41,7 +41,7 @@ class Tanish:
     role: str        = "AI Systems & Inference Engineer"
     education: str   = "B.Tech CSE @ AKGEC (AKTU) · 8.50 CGPA · AI/ML Focus"
     community: str   = "Cloud Computing Cell (CCC), AKGEC"
-    dsa: str         = "130+ LeetCode problems solved"
+    dsa: str         = "180+ LeetCode problems solved (100+ Mediums)"
     core_stack: list = field(default_factory=lambda: [
         "vLLM", "PagedAttention", "KV Cache", "LoRA", "FastAPI", "LangGraph"
     ])
@@ -316,12 +316,26 @@ for skill, progress in roadmap.items():
 <img src="https://github-readme-stats.vercel.app/api?username=Tanish-o9&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="165" alt="stats"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tanish-o9&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="top languages"/>
 <br/>
-<img src="https://leetcard.jacoblin.cool/Tanish_Kumar_123?theme=dark&font=Fira%20Code" height="165" alt="LeetCode stats"/>
 <img src="https://streak-stats.demolab.com?user=Tanish-o9&theme=tokyonight&hide_border=true" height="165" alt="streak"/>
 
-<br/><br/>
+</div>
 
-<img src="https://raw.githubusercontent.com/Tanish-o9/Tanish-o9/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution grid snake" width="100%"/>
+---
+
+### 🐍 **`snake.py`** (Contribution Activity)
+
+```bash
+$ python -m arcade.snake --target=contributions --palette=github-dark
+[ACTIVE] 🟢 Eating 370+ contributions across the grid!
+```
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg">
+  <img alt="GitHub Contribution Grid Snake" src="./assets/github-contribution-grid-snake-dark.svg" width="100%"/>
+</picture>
 
 </div>
 
@@ -333,7 +347,7 @@ for skill, progress in roadmap.items():
 $ cat ~/.achievements.env
 HACKATHONS="LNMIIT Finalist · Smart India Hackathon (SIH)"
 COMMUNITY="Cloud Computing Cell (CCC), AKGEC"
-LEETCODE="130+ Problems Solved · Top Algorithms Track"
+LEETCODE="180+ Problems Solved (72 Easy · 104 Med · 8 Hard)"
 ACADEMICS="B.Tech CSE @ AKGEC (AKTU) · 8.50 CGPA · AI/ML Focus"
 OPEN_SOURCE="6 Core LLM Infrastructure Repositories Built"
 ```
