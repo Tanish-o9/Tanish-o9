@@ -1,137 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="100%" height="140" role="img" aria-label="Tanish Kumar - AI Engineer Footer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="100%" height="140" role="img" aria-label="Tanish Kumar - Terminal Footer">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="ftr-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B0F19"/>
-      <stop offset="30%" stop-color="#0F172A"/>
-      <stop offset="70%" stop-color="#1E1B4B"/>
-      <stop offset="100%" stop-color="#312E81"/>
-    </linearGradient>
-
-    <!-- Flowing Wave Gradients -->
-    <linearGradient id="ftr-wave-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.3"/>
-      <stop offset="30%" stop-color="#3B82F6"/>
-      <stop offset="50%" stop-color="#8B5CF6"/>
-      <stop offset="70%" stop-color="#EC4899"/>
-      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.3"/>
-    </linearGradient>
-
-    <!-- Radial Glows -->
-    <radialGradient id="ftr-center-glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Text Glow Filter -->
-    <filter id="ftr-glow-filter" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Dot Grid Pattern -->
-    <pattern id="ftr-grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="12" cy="12" r="0.9" fill="#818CF8" fill-opacity="0.12"/>
-    </pattern>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+      .cursor-blink { animation: termBlink 1s step-end infinite; }
+      @keyframes termBlink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    </style>
   </defs>
 
-  <!-- Base Card Background -->
-  <rect width="1200" height="140" rx="14" fill="url(#ftr-bg)" stroke="#4338CA" stroke-width="1.2" stroke-opacity="0.6"/>
+  <!-- Terminal Window Background -->
+  <rect width="1200" height="140" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
 
-  <!-- Radial Glow -->
-  <rect width="1200" height="140" rx="14" fill="url(#ftr-center-glow)"/>
+  <!-- Titlebar -->
+  <path d="M 0 10 C 0 4.477 4.477 0 10 0 L 1190 0 C 1195.523 0 1200 4.477 1200 10 L 1200 32 L 0 32 Z" fill="#161b22"/>
+  <line x1="0" y1="32" x2="1200" y2="32" stroke="#30363d" stroke-width="1"/>
 
-  <!-- Background Grid -->
-  <rect width="1200" height="140" rx="14" fill="url(#ftr-grid)"/>
+  <!-- Window Controls -->
+  <circle cx="20" cy="16" r="5" fill="#ff5f56"/>
+  <circle cx="37" cy="16" r="5" fill="#ffbd2e"/>
+  <circle cx="54" cy="16" r="5" fill="#27c93f"/>
 
-  <!-- Animated Wave Line Across Top -->
-  <path d="M 0 25 Q 150 12 300 25 T 600 25 T 900 25 T 1200 25" 
-        fill="none" stroke="url(#ftr-wave-grad)" stroke-width="2" stroke-linecap="round" opacity="0.75">
-    <animate attributeName="d" 
-             values="M 0 25 Q 150 12 300 25 T 600 25 T 900 25 T 1200 25;
-                     M 0 25 Q 150 38 300 25 T 600 25 T 900 25 T 1200 25;
-                     M 0 25 Q 150 12 300 25 T 600 25 T 900 25 T 1200 25" 
-             dur="4.5s" repeatCount="indefinite"/>
-  </path>
+  <!-- Titlebar Center Info -->
+  <text x="600" y="20.5" text-anchor="middle" class="mono" font-size="11" fill="#8b949e">zsh — session_summary.log (exit 0)</text>
 
-  <!-- Bottom Accent Highlight -->
-  <path d="M 30 139 L 1170 139" stroke="url(#ftr-wave-grad)" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+  <!-- Titlebar Right Meta -->
+  <text x="1175" y="20.5" text-anchor="end" class="mono" font-size="10.5" fill="#3fb950">⚡ STATUS: 0 ERRORS</text>
 
-  <!-- ==================== LEFT: PULSING NODE ROW ==================== -->
-  <g id="ftr-left-nodes">
-    <!-- Connecting Edges -->
-    <path d="M 70 72 L 120 58 M 120 58 L 175 86 M 175 86 L 230 68" 
-          stroke="#4F46E5" stroke-width="1.2" stroke-opacity="0.35" fill="none"/>
-    <path d="M 70 72 L 120 58 L 175 86 L 230 68" 
-          stroke="#818CF8" stroke-width="1.6" stroke-dasharray="5 15" fill="none" opacity="0.75">
-      <animate attributeName="stroke-dashoffset" from="0" to="-40" dur="2.8s" repeatCount="indefinite"/>
-    </path>
+  <!-- ==================== TERMINAL BODY ==================== -->
 
-    <!-- Node 1 -->
-    <circle cx="70" cy="72" r="4" fill="#6366F1"/>
-    <!-- Node 2 with Pulse -->
-    <circle cx="120" cy="58" r="5.5" fill="#8B5CF6"/>
-    <circle cx="120" cy="58" r="5.5" fill="none" stroke="#C4B5FD" stroke-width="1.2">
-      <animate attributeName="r" values="5.5;10;5.5" dur="2.4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.8;0;0.8" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-    <!-- Node 3 -->
-    <circle cx="175" cy="86" r="4.5" fill="#3B82F6"/>
-    <!-- Node 4 with Pulse -->
-    <circle cx="230" cy="68" r="5" fill="#A855F7"/>
-    <circle cx="230" cy="68" r="5" fill="none" stroke="#E9D5FF" stroke-width="1.2">
-      <animate attributeName="r" values="5;9.5;5" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.7;0;0.7" dur="3s" repeatCount="indefinite"/>
-    </circle>
+  <!-- Line 1: Command Executed -->
+  <g transform="translate(30, 58)">
+    <text class="mono" font-size="12.5" fill="#7ee787" font-weight="bold">tanish@workstation</text>
+    <text x="155" y="0" class="mono" font-size="12.5" fill="#8b949e">:</text>
+    <text x="165" y="0" class="mono" font-size="12.5" fill="#79c0ff" font-weight="bold">~/profile</text>
+    <text x="245" y="0" class="mono" font-size="12.5" fill="#e6edf3">$ python -c &quot;ship_tagline()&quot;</text>
   </g>
 
-  <!-- ==================== RIGHT: PULSING NODE ROW ==================== -->
-  <g id="ftr-right-nodes">
-    <!-- Connecting Edges -->
-    <path d="M 970 68 L 1025 86 M 1025 86 L 1080 58 M 1080 58 L 1130 72" 
-          stroke="#4F46E5" stroke-width="1.2" stroke-opacity="0.35" fill="none"/>
-    <path d="M 970 68 L 1025 86 L 1080 58 L 1130 72" 
-          stroke="#A78BFA" stroke-width="1.6" stroke-dasharray="5 15" fill="none" opacity="0.75">
-      <animate attributeName="stroke-dashoffset" from="40" to="0" dur="2.8s" repeatCount="indefinite"/>
-    </path>
-
-    <!-- Node 5 with Pulse -->
-    <circle cx="970" cy="68" r="5" fill="#A855F7"/>
-    <circle cx="970" cy="68" r="5" fill="none" stroke="#E9D5FF" stroke-width="1.2">
-      <animate attributeName="r" values="5;9.5;5" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.7;0;0.7" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <!-- Node 6 -->
-    <circle cx="1025" cy="86" r="4.5" fill="#3B82F6"/>
-    <!-- Node 7 with Pulse -->
-    <circle cx="1080" cy="58" r="5.5" fill="#8B5CF6"/>
-    <circle cx="1080" cy="58" r="5.5" fill="none" stroke="#C4B5FD" stroke-width="1.2">
-      <animate attributeName="r" values="5.5;10;5.5" dur="2.4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.8;0;0.8" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-    <!-- Node 8 -->
-    <circle cx="1130" cy="72" r="4" fill="#6366F1"/>
+  <!-- Line 2: Terminal Output Banner -->
+  <g transform="translate(30, 89)">
+    <rect x="0" y="-18" width="1140" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+    <text x="18" y="1" class="mono" font-size="12.5" fill="#58a6ff" font-weight="bold">[OUTPUT]</text>
+    <text x="100" y="1" class="mono" font-size="13.5" fill="#f0f6fc" font-weight="bold" letter-spacing="1.2">
+      ⚡ Faster LLMs. Smarter Agents. Production-ready AI. ⚡
+    </text>
+    <text x="1120" y="1" text-anchor="end" class="mono" font-size="11" fill="#8b949e">
+      [OPT · SERVE · DEPLOY]
+    </text>
   </g>
 
-  <!-- ==================== CENTER: TAGLINE & BRAND ==================== -->
-  <g id="ftr-center-content">
-    <!-- Glowing Primary Tagline -->
-    <text x="600" y="74" text-anchor="middle" 
-          font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" 
-          font-size="21" font-weight="700" fill="#FFFFFF" 
-          letter-spacing="2" filter="url(#ftr-glow-filter)">
-      Faster LLMs. Smarter Agents. Production-ready AI.
-    </text>
-
-    <!-- Subtitle Meta Badges -->
-    <text x="600" y="104" text-anchor="middle" 
-          font-family="'Consolas', 'Courier New', monospace" 
-          font-size="11.5" font-weight="600" fill="#A5B4FC" 
-          letter-spacing="2">
-      ⚡ OPTIMIZE · SERVE · ORCHESTRATE ⚡
-    </text>
+  <!-- Line 3: Closing Prompt with Blinking Cursor -->
+  <g transform="translate(30, 122)">
+    <text class="mono" font-size="12.5" fill="#7ee787" font-weight="bold">tanish@workstation</text>
+    <text x="155" y="0" class="mono" font-size="12.5" fill="#8b949e">:</text>
+    <text x="165" y="0" class="mono" font-size="12.5" fill="#79c0ff" font-weight="bold">~/profile</text>
+    <text x="245" y="0" class="mono" font-size="12.5" fill="#8b949e">$ # Ready to engineer LLMs and autonomous agents</text>
+    <rect x="670" y="-11" width="7.5" height="14" fill="#58a6ff" class="cursor-blink"/>
   </g>
 </svg>

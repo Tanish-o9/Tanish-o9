@@ -1,302 +1,122 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="320" role="img" aria-label="Tanish Kumar - AI Engineer Header">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="320" role="img" aria-label="Tanish Kumar - AI Systems Terminal">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="hdr-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B0F19"/>
-      <stop offset="30%" stop-color="#0F172A"/>
-      <stop offset="70%" stop-color="#1E1B4B"/>
-      <stop offset="100%" stop-color="#312E81"/>
-    </linearGradient>
-
-    <!-- Subtle Radial Glows -->
-    <radialGradient id="hdr-glow-left" cx="15%" cy="35%" r="45%">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="hdr-glow-right" cx="85%" cy="65%" r="45%">
-      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="hdr-glow-center" cx="50%" cy="35%" r="50%">
-      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Linear Gradients for UI elements -->
-    <linearGradient id="hdr-pill-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#10B981" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#059669" stop-opacity="0.18"/>
-    </linearGradient>
-    <linearGradient id="hdr-chip-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1E1B4B" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95"/>
-    </linearGradient>
-    <linearGradient id="hdr-bar-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#06B6D4"/>
-      <stop offset="50%" stop-color="#3B82F6"/>
-      <stop offset="100%" stop-color="#8B5CF6"/>
-    </linearGradient>
-    <linearGradient id="hdr-text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="70%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#E0E7FF"/>
-    </linearGradient>
-
-    <!-- Crisp Text Glow Filter -->
-    <filter id="hdr-glow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="1.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Dot Grid Pattern -->
-    <pattern id="hdr-grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="14" cy="14" r="0.9" fill="#818CF8" fill-opacity="0.14"/>
-    </pattern>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+      .cursor-blink { animation: termBlink 1s step-end infinite; }
+      @keyframes termBlink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      .pulse-dot { animation: dotPulse 2s ease-in-out infinite; }
+      @keyframes dotPulse { 0%, 100% { r: 3.5; opacity: 1; } 50% { r: 5; opacity: 0.6; } }
+      .bar-anim { animation: vramBar 4s ease-in-out infinite; }
+      @keyframes vramBar { 0%, 100% { width: 285px; } 50% { width: 310px; } }
+    </style>
   </defs>
 
-  <!-- Base Card Background -->
-  <rect width="1200" height="320" rx="16" fill="url(#hdr-bg)" stroke="#4338CA" stroke-width="1.2" stroke-opacity="0.6"/>
+  <!-- Terminal Window Background -->
+  <rect width="1200" height="320" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
 
-  <!-- Radial Glow Accents -->
-  <rect width="1200" height="320" rx="16" fill="url(#hdr-glow-left)"/>
-  <rect width="1200" height="320" rx="16" fill="url(#hdr-glow-right)"/>
-  <rect width="1200" height="320" rx="16" fill="url(#hdr-glow-center)"/>
+  <!-- Titlebar -->
+  <path d="M 0 10 C 0 4.477 4.477 0 10 0 L 1190 0 C 1195.523 0 1200 4.477 1200 10 L 1200 38 L 0 38 Z" fill="#161b22"/>
+  <line x1="0" y1="38" x2="1200" y2="38" stroke="#30363d" stroke-width="1"/>
 
-  <!-- Background Grid -->
-  <rect width="1200" height="320" rx="16" fill="url(#hdr-grid)"/>
+  <!-- Window Controls (macOS style) -->
+  <circle cx="22" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="19" r="6" fill="#27c93f"/>
 
-  <!-- Top Accent Border Highlight -->
-  <path d="M 30 1 L 1170 1" stroke="url(#hdr-bar-grad)" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+  <!-- Active Tab -->
+  <path d="M 90 38 L 90 12 C 90 8 93 6 97 6 L 275 6 C 279 6 282 8 282 12 L 282 38 Z" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="110" y="23" class="mono" font-size="12" fill="#58a6ff" font-weight="600">⚡ tanish_core.py</text>
+  <text x="260" y="22" class="mono" font-size="12" fill="#8b949e">×</text>
 
-  <!-- ==================== LEFT: NEURAL NETWORK GRAPH ==================== -->
-  <g id="neural-net">
-    <!-- Static Connecting Lines -->
-    <path d="M 60 100 L 130 70 M 60 100 L 140 155 M 70 210 L 140 155 M 70 210 L 130 240 M 130 70 L 200 110 M 140 155 L 200 110 M 140 155 L 210 200 M 130 240 L 210 200 M 130 70 L 140 155 M 140 155 L 130 240" 
-          stroke="#4F46E5" stroke-width="1.2" stroke-opacity="0.35" fill="none"/>
+  <!-- Titlebar Center Info -->
+  <text x="600" y="23" text-anchor="middle" class="mono" font-size="11.5" fill="#8b949e">tanish@ai-workstation: ~/projects/tanish-o9 (zsh)</text>
 
-    <!-- Animated Data Stream Lines -->
-    <path d="M 60 100 L 140 155 L 200 110" stroke="#818CF8" stroke-width="1.8" stroke-dasharray="6 14" fill="none" opacity="0.85">
-      <animate attributeName="stroke-dashoffset" from="0" to="-40" dur="2.4s" repeatCount="indefinite"/>
-    </path>
-    <path d="M 70 210 L 140 155 L 210 200" stroke="#A78BFA" stroke-width="1.8" stroke-dasharray="6 16" fill="none" opacity="0.85">
-      <animate attributeName="stroke-dashoffset" from="44" to="0" dur="2.8s" repeatCount="indefinite"/>
-    </path>
-    <path d="M 130 70 L 140 155 L 130 240" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="5 15" fill="none" opacity="0.75">
-      <animate attributeName="stroke-dashoffset" from="0" to="-40" dur="3s" repeatCount="indefinite"/>
-    </path>
+  <!-- Titlebar Right Meta -->
+  <text x="1175" y="23" text-anchor="end" class="mono" font-size="11" fill="#7ee787">● main* (clean)</text>
 
-    <!-- Graph Nodes -->
-    <circle cx="60" cy="100" r="4.5" fill="#6366F1"/>
-    <circle cx="70" cy="210" r="4.5" fill="#6366F1"/>
-    <circle cx="130" cy="70" r="5" fill="#8B5CF6"/>
-    
-    <!-- Central Hub with Pulse -->
-    <circle cx="140" cy="155" r="7" fill="#8B5CF6"/>
-    <circle cx="140" cy="155" r="7" fill="none" stroke="#C4B5FD" stroke-width="1.5">
-      <animate attributeName="r" values="7;14;7" dur="2.6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.85;0;0.85" dur="2.6s" repeatCount="indefinite"/>
-    </circle>
-    
-    <circle cx="130" cy="240" r="5" fill="#3B82F6"/>
-    
-    <!-- Secondary Hub with Pulse -->
-    <circle cx="200" cy="110" r="5.5" fill="#A855F7"/>
-    <circle cx="200" cy="110" r="5.5" fill="none" stroke="#E9D5FF" stroke-width="1.5">
-      <animate attributeName="r" values="5.5;11;5.5" dur="3.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.75;0;0.75" dur="3.2s" repeatCount="indefinite"/>
-    </circle>
-    
-    <circle cx="210" cy="200" r="5" fill="#6366F1"/>
+  <!-- ==================== TERMINAL BODY ==================== -->
 
-    <!-- Small Label under graph -->
-    <text x="140" y="278" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="700" fill="#818CF8" letter-spacing="1.2">DISTRIBUTED GRAPH</text>
+  <!-- Top Prompt Line -->
+  <g transform="translate(30, 68)">
+    <text class="mono" font-size="13.5" fill="#7ee787" font-weight="bold">tanish@workstation</text>
+    <text x="165" y="0" class="mono" font-size="13.5" fill="#8b949e">:</text>
+    <text x="175" y="0" class="mono" font-size="13.5" fill="#79c0ff" font-weight="bold">~/profile</text>
+    <text x="255" y="0" class="mono" font-size="13.5" fill="#e6edf3">$ python -m sys.init --target=production</text>
   </g>
 
-  <!-- ==================== RIGHT: GPU & KV CACHE MONITOR ==================== -->
-  <g id="gpu-monitor" transform="translate(975, 48)">
-    <!-- Monitor Card Container -->
-    <rect x="0" y="0" width="180" height="220" rx="10" fill="#090D16" fill-opacity="0.88" stroke="#312E81" stroke-width="1.2"/>
+  <!-- Left Card: Code / Dataclass Specification -->
+  <g transform="translate(30, 88)">
+    <rect width="690" height="190" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
     
-    <!-- Monitor Header -->
-    <text x="14" y="24" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#E2E8F0" letter-spacing="0.5">GPU TELEMETRY</text>
-    <circle cx="162" cy="20" r="3.5" fill="#10B981">
-      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
+    <!-- Header Comment -->
+    <text x="18" y="26" class="mono" font-size="11" fill="#8b949e"># ─── IDENTITY &amp; CORE FOCUS ────────────────────────────────────────────────</text>
 
-    <!-- Device name -->
-    <text x="14" y="40" font-family="'Consolas', 'Courier New', monospace" font-size="9" fill="#94A3B8">vLLM · PagedAttention</text>
+    <!-- Name Line -->
+    <text x="18" y="56" class="mono" font-size="13" fill="#ff7b72" font-weight="bold">NAME</text>
+    <text x="100" y="56" class="mono" font-size="13" fill="#8b949e">=</text>
+    <text x="125" y="56" class="mono" font-size="20" fill="#f0f6fc" font-weight="bold" letter-spacing="1.5">TANISH KUMAR</text>
 
-    <!-- KV Cache Usage Bar -->
-    <text x="14" y="64" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="9.5" font-weight="600" fill="#38BDF8">KV CACHE ALLOCATION</text>
-    <text x="166" y="64" text-anchor="end" font-family="'Consolas', 'Courier New', monospace" font-size="9.5" font-weight="700" fill="#38BDF8">78.4%</text>
-    
-    <!-- Bar Track -->
-    <rect x="14" y="70" width="152" height="7" rx="3.5" fill="#1E293B"/>
-    <!-- Animated Bar Fill -->
-    <rect x="14" y="70" width="118" height="7" rx="3.5" fill="url(#hdr-bar-grad)">
-      <animate attributeName="width" values="116;128;118;124;116" dur="4s" repeatCount="indefinite"/>
-    </rect>
+    <!-- Role Line -->
+    <text x="18" y="86" class="mono" font-size="13" fill="#ff7b72" font-weight="bold">ROLE</text>
+    <text x="100" y="86" class="mono" font-size="13" fill="#8b949e">=</text>
+    <text x="125" y="86" class="mono" font-size="13.5" fill="#a5d6ff" font-weight="bold">&quot;AI Engineer · LLM Systems · Agentic AI · RAG&quot;</text>
 
-    <!-- VRAM & Quantization line -->
-    <text x="14" y="98" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="9.5" font-weight="600" fill="#A78BFA">WEIGHT PRECISION</text>
-    <text x="166" y="98" text-anchor="end" font-family="'Consolas', 'Courier New', monospace" font-size="9.5" font-weight="700" fill="#A78BFA">FP8 / INT4</text>
+    <!-- Status Line -->
+    <text x="18" y="117" class="mono" font-size="13" fill="#ff7b72" font-weight="bold">STATUS</text>
+    <text x="100" y="117" class="mono" font-size="13" fill="#8b949e">=</text>
+    <rect x="125" y="101" width="280" height="23" rx="11.5" fill="rgba(35, 134, 54, 0.2)" stroke="#238636" stroke-width="1"/>
+    <circle cx="138" cy="112.5" r="4" fill="#3fb950" class="pulse-dot"/>
+    <text x="150" y="116.5" class="mono" font-size="11.5" fill="#3fb950" font-weight="bold">Open to AI Engineer Internships</text>
 
-    <!-- Token Stream Equalizer / Bar Visualizer -->
-    <text x="14" y="128" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="9.5" font-weight="600" fill="#94A3B8">TOKEN STREAM (TPS)</text>
-    
-    <g transform="translate(14, 137)">
-      <!-- 8 Animated activity bars -->
-      <rect x="0" y="8" width="13" height="22" rx="2" fill="#818CF8">
-        <animate attributeName="height" values="22;12;28;18;22" dur="1.8s" repeatCount="indefinite"/>
-        <animate attributeName="y" values="8;18;2;12;8" dur="1.8s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="20" y="4" width="13" height="26" rx="2" fill="#6366F1">
-        <animate attributeName="height" values="26;16;12;24;26" dur="2.1s" repeatCount="indefinite"/>
-        <animate attributeName="y" values="4;14;18;6;4" dur="2.1s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="40" y="12" width="13" height="18" rx="2" fill="#A855F7">
-        <animate attributeName="height" values="18;28;14;22;18" dur="1.6s" repeatCount="indefinite"/>
-        <animate attributeName="y" values="12;2;16;8;12" dur="1.6s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="60" y="2" width="13" height="28" rx="2" fill="#EC4899">
-        <animate attributeName="height" values="28;14;24;10;28" dur="2.4s" repeatCount="indefinite"/>
-        <animate attributeName="y" values="2;16;6;20;2" dur="2.4s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="80" y="10" width="13" height="20" rx="2" fill="#3B82F6">
-        <animate attributeName="height" values="20;27;15;25;20" dur="1.9s" repeatCount="indefinite"/>
-        <animate attributeName="y" values="10;3;15;5;10" dur="1.9s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="100" y="6" width="13" height="24" rx="2" fill="#06B6D4">
-        <animate attributeName="height" values="24;14;28;18;24" dur="2.2s" repeatCount="indefinite"/>
-        <animate attributeName="y" values="6;16;2;12;6" dur="2.2s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="120" y="14" width="13" height="16" rx="2" fill="#10B981">
-        <animate attributeName="height" values="16;26;12;22;16" dur="1.7s" repeatCount="indefinite"/>
-        <animate attributeName="y" values="14;4;18;8;14" dur="1.7s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="140" y="7" width="13" height="23" rx="2" fill="#38BDF8">
-        <animate attributeName="height" values="23;13;27;17;23" dur="2.3s" repeatCount="indefinite"/>
-        <animate attributeName="y" values="7;17;3;13;7" dur="2.3s" repeatCount="indefinite"/>
-      </rect>
-    </g>
+    <!-- Stack Line -->
+    <text x="18" y="148" class="mono" font-size="13" fill="#ff7b72" font-weight="bold">STACK</text>
+    <text x="100" y="148" class="mono" font-size="13" fill="#8b949e">=</text>
+    <text x="125" y="148" class="mono" font-size="12" fill="#d2a8ff">[ &quot;vLLM&quot;, &quot;PagedAttention&quot;, &quot;KV Cache&quot;, &quot;LoRA&quot;, &quot;FastAPI&quot;, &quot;LangGraph&quot; ]</text>
 
-    <!-- Bottom metric pill -->
-    <rect x="14" y="184" width="152" height="22" rx="6" fill="#1E1B4B" stroke="#4338CA" stroke-width="0.8"/>
-    <text x="90" y="199" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="9.5" font-weight="700" fill="#A5B4FC">TTFT 18ms · 142 tok/s</text>
+    <!-- Mission Line -->
+    <text x="18" y="174" class="mono" font-size="13" fill="#ff7b72" font-weight="bold">MISSION</text>
+    <text x="100" y="174" class="mono" font-size="13" fill="#8b949e">=</text>
+    <text x="125" y="174" class="mono" font-size="12.5" fill="#79c0ff">&quot;Make LLMs faster, smaller and cheaper, then build agents on top&quot;</text>
   </g>
 
-  <!-- ==================== CENTER: HERO TYPOGRAPHY & PILLS ==================== -->
-  <g id="hero-content">
-    <!-- Main Name Header -->
-    <text x="600" y="98" text-anchor="middle" 
-          font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" 
-          font-size="44" font-weight="800" fill="url(#hdr-text-grad)" 
-          letter-spacing="4" filter="url(#hdr-glow)">TANISH KUMAR</text>
+  <!-- Right Card: Live Engine Telemetry (Code Form) -->
+  <g transform="translate(735, 88)">
+    <rect width="435" height="190" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    
+    <!-- Telemetry Header -->
+    <text x="18" y="26" class="mono" font-size="11" fill="#7ee787" font-weight="bold">⚡ ENGINE_TELEMETRY.SYS</text>
+    <text x="415" y="26" text-anchor="end" class="mono" font-size="11" fill="#8b949e">[LIVE STATUS: 200 OK]</text>
+    <line x1="18" y1="36" x2="415" y2="36" stroke="#21262d" stroke-width="1"/>
 
-    <!-- Subtitle / Title Role -->
-    <text x="600" y="134" text-anchor="middle" 
-          font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" 
-          font-size="18" font-weight="500" fill="#C4B5FD" 
-          letter-spacing="1.2">AI Engineer  |  LLM Systems  |  Agentic AI  |  RAG</text>
+    <!-- KV Cache Usage -->
+    <text x="18" y="58" class="mono" font-size="11" fill="#8b949e">KV CACHE ALLOCATION</text>
+    <text x="415" y="58" text-anchor="end" class="mono" font-size="11" fill="#79c0ff" font-weight="bold">78.4% / 24 GB</text>
+    <rect x="18" y="66" width="397" height="7" rx="3.5" fill="#21262d"/>
+    <rect x="18" y="66" width="295" height="7" rx="3.5" fill="#1f6feb" class="bar-anim"/>
 
-    <!-- Internship Status Pill -->
-    <g transform="translate(460, 154)">
-      <rect width="280" height="28" rx="14" fill="url(#hdr-pill-grad)" stroke="#10B981" stroke-width="1.2" stroke-opacity="0.8"/>
-      <!-- Pulsing Green Dot -->
-      <circle cx="22" cy="14" r="4.5" fill="#10B981">
-        <animate attributeName="r" values="4;5.5;4" dur="2s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.75;1;0.75" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="22" cy="14" r="7" fill="none" stroke="#34D399" stroke-width="1">
-        <animate attributeName="r" values="4.5;9;4.5" dur="2s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <text x="148" y="18.5" text-anchor="middle" 
-            font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" 
-            font-size="12" font-weight="600" fill="#6EE7B7" letter-spacing="0.3">Open to AI Engineer Internships</text>
-    </g>
+    <!-- Precision & Kernel -->
+    <text x="18" y="94" class="mono" font-size="11" fill="#8b949e">WEIGHT QUANTIZATION</text>
+    <text x="415" y="94" text-anchor="end" class="mono" font-size="11" fill="#d2a8ff" font-weight="bold">FP8 / INT4 (AWQ + GPTQ)</text>
 
-    <!-- ==================== TECH STACK CHIPS ==================== -->
-    <g transform="translate(0, 206)">
-      <!-- Chip 1: vLLM -->
-      <g transform="translate(260, 0)">
-        <g>
-          <animateTransform attributeName="transform" type="translate" values="0,0; 0,-1.5; 0,0" dur="3.5s" begin="0.0s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" begin="0.0s" repeatCount="indefinite"/>
-          <rect width="66" height="26" rx="13" fill="url(#hdr-chip-grad)" stroke="#6366F1" stroke-width="1" stroke-opacity="0.75"/>
-          <text x="33" y="17.5" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="11" font-weight="700" fill="#A5B4FC">vLLM</text>
-        </g>
-      </g>
+    <!-- Token Throughput -->
+    <text x="18" y="120" class="mono" font-size="11" fill="#8b949e">TOKEN THROUGHPUT</text>
+    <text x="415" y="120" text-anchor="end" class="mono" font-size="11" fill="#7ee787" font-weight="bold">142 tok/s · continuous batch</text>
 
-      <!-- Chip 2: PagedAttention -->
-      <g transform="translate(336, 0)">
-        <g>
-          <animateTransform attributeName="transform" type="translate" values="0,0; 0,-1.5; 0,0" dur="3.5s" begin="0.5s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" begin="0.5s" repeatCount="indefinite"/>
-          <rect width="128" height="26" rx="13" fill="url(#hdr-chip-grad)" stroke="#6366F1" stroke-width="1" stroke-opacity="0.75"/>
-          <text x="64" y="17.5" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="11" font-weight="700" fill="#A5B4FC">PagedAttention</text>
-        </g>
-      </g>
+    <!-- TTFT -->
+    <text x="18" y="146" class="mono" font-size="11" fill="#8b949e">TIME TO FIRST TOKEN (TTFT)</text>
+    <text x="415" y="146" text-anchor="end" class="mono" font-size="11" fill="#ffa657" font-weight="bold">18.2 ms (PagedAttention v2)</text>
 
-      <!-- Chip 3: KV Cache -->
-      <g transform="translate(474, 0)">
-        <g>
-          <animateTransform attributeName="transform" type="translate" values="0,0; 0,-1.5; 0,0" dur="3.5s" begin="1.0s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" begin="1.0s" repeatCount="indefinite"/>
-          <rect width="90" height="26" rx="13" fill="url(#hdr-chip-grad)" stroke="#6366F1" stroke-width="1" stroke-opacity="0.75"/>
-          <text x="45" y="17.5" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="11" font-weight="700" fill="#A5B4FC">KV Cache</text>
-        </g>
-      </g>
+    <!-- Bottom Status Bar -->
+    <rect x="18" y="157" width="397" height="20" rx="4" fill="#0d1117"/>
+    <text x="216" y="171" text-anchor="middle" class="mono" font-size="10" fill="#8b949e">KERNEL: CUDA 12.4 · vLLM Engine · Distributed Graph</text>
+  </g>
 
-      <!-- Chip 4: Quantization -->
-      <g transform="translate(574, 0)">
-        <g>
-          <animateTransform attributeName="transform" type="translate" values="0,0; 0,-1.5; 0,0" dur="3.5s" begin="1.5s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" begin="1.5s" repeatCount="indefinite"/>
-          <rect width="114" height="26" rx="13" fill="url(#hdr-chip-grad)" stroke="#6366F1" stroke-width="1" stroke-opacity="0.75"/>
-          <text x="57" y="17.5" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="11" font-weight="700" fill="#A5B4FC">Quantization</text>
-        </g>
-      </g>
-
-      <!-- Chip 5: LoRA -->
-      <g transform="translate(698, 0)">
-        <g>
-          <animateTransform attributeName="transform" type="translate" values="0,0; 0,-1.5; 0,0" dur="3.5s" begin="2.0s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" begin="2.0s" repeatCount="indefinite"/>
-          <rect width="64" height="26" rx="13" fill="url(#hdr-chip-grad)" stroke="#6366F1" stroke-width="1" stroke-opacity="0.75"/>
-          <text x="32" y="17.5" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="11" font-weight="700" fill="#A5B4FC">LoRA</text>
-        </g>
-      </g>
-
-      <!-- Chip 6: LangGraph -->
-      <g transform="translate(772, 0)">
-        <g>
-          <animateTransform attributeName="transform" type="translate" values="0,0; 0,-1.5; 0,0" dur="3.5s" begin="2.5s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" begin="2.5s" repeatCount="indefinite"/>
-          <rect width="98" height="26" rx="13" fill="url(#hdr-chip-grad)" stroke="#6366F1" stroke-width="1" stroke-opacity="0.75"/>
-          <text x="49" y="17.5" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="11" font-weight="700" fill="#A5B4FC">LangGraph</text>
-        </g>
-      </g>
-
-      <!-- Chip 7: RAG -->
-      <g transform="translate(880, 0)">
-        <g>
-          <animateTransform attributeName="transform" type="translate" values="0,0; 0,-1.5; 0,0" dur="3.5s" begin="3.0s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" begin="3.0s" repeatCount="indefinite"/>
-          <rect width="60" height="26" rx="13" fill="url(#hdr-chip-grad)" stroke="#6366F1" stroke-width="1" stroke-opacity="0.75"/>
-          <text x="30" y="17.5" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="11" font-weight="700" fill="#A5B4FC">RAG</text>
-        </g>
-      </g>
-    </g>
-
-    <!-- Bottom sub-caption -->
-    <text x="600" y="272" text-anchor="middle" 
-          font-family="'Consolas', 'Courier New', monospace" 
-          font-size="12" font-weight="600" fill="#818CF8" letter-spacing="1">
-      ⚡ Making LLMs faster, smaller and cheaper to run
-    </text>
+  <!-- Bottom Prompt with Blinking Cursor -->
+  <g transform="translate(30, 303)">
+    <text class="mono" font-size="13" fill="#7ee787" font-weight="bold">tanish@workstation</text>
+    <text x="160" y="0" class="mono" font-size="13" fill="#8b949e">:</text>
+    <text x="170" y="0" class="mono" font-size="13" fill="#79c0ff" font-weight="bold">~/profile</text>
+    <text x="250" y="0" class="mono" font-size="13" fill="#e6edf3">$ ./connect.sh --hire --role=&quot;AI Engineer&quot;</text>
+    <rect x="620" y="-12" width="8" height="15" fill="#58a6ff" class="cursor-blink"/>
   </g>
 </svg>
