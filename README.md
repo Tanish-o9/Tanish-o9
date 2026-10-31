@@ -15,49 +15,58 @@
 
 ---
 
-### ⚡ `boot.log`
+### ⚡ **`boot.log`**
 
 ```text
-[ OK ] Loading profile ............ Tanish Kumar
-[ OK ] Mounting education ......... B.Tech CSE @ AKGEC (AKTU) · CGPA 8.50
-[ OK ] Starting community ......... Cloud Computing Cell (CCC), AKGEC
-[ OK ] Syncing DSA ................ 130+ LeetCode problems solved
-[ OK ] Cleaning data .............. dedup · PII detection · decontamination
-[ OK ] Optimizing models .......... Quantization · LoRA · KV cache · Distillation
-[ OK ] Serving at scale ........... FastAPI · vLLM · continuous batching
-[ OK ] Spawning agents ............ LangChain · LangGraph · RAG · MCP
-[ >> ] Status ..................... 🟢 OPEN TO AI ENGINEER INTERNSHIPS
+[ 𝗢𝗞 ] 𝗟𝗼𝗮𝗱𝗶𝗻𝗴 𝗽𝗿𝗼𝗳𝗶𝗹𝗲 ............ 𝗧𝗮𝗻𝗶𝘀𝗵 𝗞𝘂𝗺𝗮𝗿
+[ 𝗢𝗞 ] 𝗠𝗼𝘂𝗻𝘁𝗶𝗻𝗴 𝗲𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻 ......... 𝗕.𝗧𝗲𝗰𝗵 𝗖𝗦𝗘 @ 𝗔𝗞𝗚𝗘𝗖 (𝗔𝗞𝗧𝗨) · 𝟴.𝟱𝟬 𝗖𝗚𝗣𝗔 · 𝗔𝗜/𝗠𝗟 𝗙𝗼𝗰𝘂𝘀
+[ 𝗢𝗞 ] 𝗦𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗰𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆 ......... 𝗖𝗹𝗼𝘂𝗱 𝗖𝗼𝗺𝗽𝘂𝘁𝗶𝗻𝗴 𝗖𝗲𝗹𝗹 (𝗖𝗖𝗖), 𝗔𝗞𝗚𝗘𝗖
+[ 𝗢𝗞 ] 𝗦𝘆𝗻𝗰𝗶𝗻𝗴 𝗗𝗦𝗔 ................ 𝟭𝟯𝟬+ 𝗟𝗲𝗲𝘁𝗖𝗼𝗱𝗲 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝘀 𝘀𝗼𝗹𝘃𝗲𝗱
+[ 𝗢𝗞 ] 𝗖𝗹𝗲𝗮𝗻𝗶𝗻𝗴 𝗱𝗮𝘁𝗮 .............. 𝗱𝗲𝗱𝘂𝗽 · 𝗣𝗜𝗜 𝗱𝗲𝘁𝗲𝗰𝘁𝗶𝗼𝗻 · 𝗱𝗲𝗰𝗼𝗻𝘁𝗮𝗺𝗶𝗻𝗮𝘁𝗶𝗼𝗻
+[ 𝗢𝗞 ] 𝗢𝗽𝘁𝗶𝗺𝗶𝘇𝗶𝗻𝗴 𝗺𝗼𝗱𝗲𝗹𝘀 .......... 𝗤𝘂𝗮𝗻𝘁𝗶𝘇𝗮𝘁𝗶𝗼𝗻 · 𝗟𝗼𝗥𝗔 · 𝗞𝗩 𝗰𝗮𝗰𝗵𝗲 · 𝗗𝗶𝘀𝘁𝗶𝗹𝗹𝗮𝘁𝗶𝗼𝗻
+[ 𝗢𝗞 ] 𝗦𝗲𝗿𝘃𝗶𝗻𝗴 𝗮𝘁 𝘀𝗰𝗮𝗹𝗲 ........... 𝗙𝗮𝘀𝘁𝗔𝗣𝗜 · 𝘃𝗟𝗟𝗠 · 𝗰𝗼𝗻𝘁𝗶𝗻𝘂𝗼𝘂𝘀 𝗯𝗮𝘁𝗰𝗵𝗶𝗻𝗴
+[ 𝗢𝗞 ] 𝗦𝗽𝗮𝘄𝗻𝗶𝗻𝗴 𝗮𝗴𝗲𝗻𝘁𝘀 ............ 𝗟𝗮𝗻𝗴𝗖𝗵𝗮𝗶𝗻 · 𝗟𝗮𝗻𝗴𝗚𝗿𝗮𝗽𝗵 · 𝗥𝗔𝗚 · 𝗠𝗖𝗣
+[ >> ] 𝗦𝘁𝗮𝘁𝘂𝘀 ..................... 🟢 𝗢𝗣𝗘𝗡 𝗧𝗢 𝗔𝗜 𝗘𝗡𝗚𝗜𝗡𝗘𝗘𝗥 𝗜𝗡𝗧𝗘𝗥𝗡𝗦𝗛𝗜𝗣𝗦
 ```
 
 ---
 
-### 👨‍💻 `whoami.py`
+### 👨‍💻 **`whoami.py`**
 
 ```python
 from dataclasses import dataclass, field
 
 @dataclass
 class Tanish:
-    role: str      = "AI Engineer (Intern-ready)"
-    education: str = "B.Tech CSE @ AKGEC (AKTU) | CGPA 8.50"
-    community: str = "Cloud Computing Cell (CCC), AKGEC"
-    dsa: str       = "130+ LeetCode problems solved"
-    focus: list    = field(default_factory=lambda: [
+    role: str        = "AI Systems & Inference Engineer"
+    education: str   = "B.Tech CSE @ AKGEC (AKTU) · 8.50 CGPA · AI/ML Focus"
+    community: str   = "Cloud Computing Cell (CCC), AKGEC"
+    dsa: str         = "130+ LeetCode problems solved"
+    core_stack: list = field(default_factory=lambda: [
+        "vLLM", "PagedAttention", "KV Cache", "LoRA", "FastAPI", "LangGraph"
+    ])
+    focus: list      = field(default_factory=lambda: [
         "LLM Inference Optimization", "LLM Data Engineering",
         "Agentic AI", "RAG", "Multi-Agent Systems"
     ])
-    mission: str   = "Make LLMs faster, smaller and cheaper, then build agents on top"
-    status: str    = "🟢 Open to AI Engineer Internships"
+    mission: str     = "Make LLMs faster, smaller and cheaper, then build agents on top"
+    status: str      = "🟢 Open to AI Engineer Internships"
 
     def ship(self, idea):
-        return self.clean_data() | self.finetune() | self.optimize() | self.serve() | self.build_agents()
+        return (
+            self.clean_data(idea)
+            | self.finetune()
+            | self.optimize_inference()
+            | self.serve_at_scale()
+            | self.deploy_agent()
+        )
 
 print(Tanish().status)   # >>> 🟢 Open to AI Engineer Internships
 ```
 
 ---
 
-### 🧬 `pipeline.mmd`
+### 🧬 **`pipeline.mmd`**
 
 Every pinned project below is one stage of the same idea: take an **LLM from raw data to a fast, cheap, production-ready service**.
 
@@ -76,16 +85,16 @@ flowchart LR
 
 ---
 
-### 📌 `gh repo list --pinned`
+### 📌 **`gh repo list --pinned`**
 
 ```bash
 $ gh repo list Tanish-o9 --pinned
-QUANTORA                      ⚡  LLM benchmarking + optimization platform
-High-Throughput-LLM-Serving   🚀  FastAPI + vLLM serving stack, benchmarked 1-64 users
-KV-Cache-Memory-Optimizer     🧠  KV cache memory vs latency vs consistency
-LLM-Data-Engine               🧹  end-to-end LLM data pipeline + LoRA fine-tuning
-Knowledge-Distillation-Lab    🎓  BERT-base (110M) -> DistilBERT (66M)
-Agentic-Ai                    🤖  LangChain · LangGraph · RAG · tool-using agents
+𝗤𝗨𝗔𝗡𝗧𝗢𝗥𝗔                      ⚡  𝗟𝗟𝗠 𝗯𝗲𝗻𝗰𝗵𝗺𝗮𝗿𝗸𝗶𝗻𝗴 + 𝗼𝗽𝘁𝗶𝗺𝗶𝘇𝗮𝘁𝗶𝗼𝗻 𝗽𝗹𝗮𝘁𝗳𝗼𝗿𝗺
+𝗛𝗶𝗴𝗵-𝗧𝗵𝗿𝗼𝘂𝗴𝗵𝗽𝘂𝘁-𝗟𝗟𝗠-𝗦𝗲𝗿𝘃𝗶𝗻𝗴   🚀  𝗙𝗮𝘀𝘁𝗔𝗣𝗜 + 𝘃𝗟𝗟𝗠 𝘀𝗲𝗿𝘃𝗶𝗻𝗴 𝘀𝘁𝗮𝗰𝗸, 𝗯𝗲𝗻𝗰𝗵𝗺𝗮𝗿𝗸𝗲𝗱 𝟭-𝟲𝟰 𝘂𝘀𝗲𝗿𝘀
+𝗞𝗩-𝗖𝗮𝗰𝗵𝗲-𝗠𝗲𝗺𝗼𝗿𝘆-𝗢𝗽𝘁𝗶𝗺𝗶𝘇𝗲𝗿     🧠  𝗞𝗩 𝗰𝗮𝗰𝗵𝗲 𝗺𝗲𝗺𝗼𝗿𝘆 𝘃𝘀 𝗹𝗮𝘁𝗲𝗻𝗰𝘆 𝘃𝘀 𝗰𝗼𝗻𝘀𝗶𝘀𝘁𝗲𝗻𝗰𝘆
+𝗟𝗟𝗠-𝗗𝗮𝘁𝗮-𝗘𝗻𝗴𝗶𝗻𝗲               🧹  𝗲𝗻𝗱-𝘁𝗼-𝗲𝗻𝗱 𝗟𝗟𝗠 𝗱𝗮𝘁𝗮 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 + 𝗟𝗼𝗥𝗔 𝗳𝗶𝗻𝗲-𝘁𝘂𝗻𝗶𝗻𝗴
+𝗞𝗻𝗼𝘄𝗹𝗲𝗱𝗴𝗲-𝗗𝗶𝘀𝘁𝗶𝗹𝗹𝗮𝘁𝗶𝗼𝗻-𝗟𝗮𝗯    🎓  𝗕𝗘𝗥𝗧-𝗯𝗮𝘀𝗲 (𝟭𝟭𝟬𝗠) -> 𝗗𝗶𝘀𝘁𝗶𝗹𝗕𝗘𝗥𝗧 (𝟲𝟲𝗠)
+𝗔𝗴𝗲𝗻𝘁𝗶𝗰-𝗔𝗶                    🤖  𝗟𝗮𝗻𝗴𝗖𝗵𝗮𝗶𝗻 · 𝗟𝗮𝗻𝗴𝗚𝗿𝗮𝗽𝗵 · 𝗥𝗔𝗚 · 𝘁𝗼𝗼𝗹-𝘂𝘀𝗶𝗻𝗴 𝗮𝗴𝗲𝗻𝘁𝘀
 ```
 
 <div align="center">
@@ -101,7 +110,7 @@ Agentic-Ai                    🤖  LangChain · LangGraph · RAG · tool-using 
 
 </div>
 
-#### 🔍 `inspect(projects)`
+#### 🔍 **`inspect(projects)`**
 
 ```python
 projects = {
@@ -204,7 +213,7 @@ flowchart LR
 
 </details>
 
-#### 🗂️ `also_built.py`
+#### 🗂️ **`also_built.py`**
 
 ```python
 also_built = {
@@ -234,7 +243,7 @@ also_built = {
 
 ---
 
-### 🛠️ `stack.yaml`
+### 🛠️ **`stack.yaml`**
 
 <div align="center">
 
@@ -261,7 +270,7 @@ languages:          [Python, C, C++, JavaScript, TypeScript]
 
 ---
 
-### 🎯 `roadmap.py`
+### 🎯 **`roadmap.py`**
 
 ```python
 roadmap = {
@@ -279,7 +288,7 @@ for skill, progress in roadmap.items():
 
 ---
 
-### 📊 `stats.log`
+### 📊 **`stats.log`**
 
 <div align="center">
 
@@ -292,7 +301,7 @@ for skill, progress in roadmap.items():
 
 ---
 
-### 🤝 `contact.sh`
+### 🤝 **`contact.sh`**
 
 ```bash
 $ whoami
