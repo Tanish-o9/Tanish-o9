@@ -72,25 +72,6 @@ print(Tanish().status)   # >>> 🟢 Open to AI Engineer Internships
 
 ---
 
-### 🤖 **`agent_query.py`** (Autonomous Portfolio Agent)
-
-```bash
-$ python -m agent.eval --query "Summarize Tanish's AI engineering capabilities"
-[AGENT STATE] Routing query via LLM Gateway -> Retrieval -> Synthesis...
-[EVALUATION METRICS] Relevance: 0.98 | Factuality: 1.00 | Latency: 24ms (vLLM)
-
-[AGENT RESPONSE]:
-  ┌────────────────────────────────────────────────────────────────────────────────────────┐
-  │ 1. LLM Systems & Inference: vLLM, PagedAttention, KV-cache tuning, AWQ/INT4, Pruning. │
-  │ 2. Gateways & Routing: Multi-provider failover, middleware, streaming, token budgets.  │
-  │ 3. LLM Evals & Data: Decontamination, PII filter, WikiText-2 perplexity drift analysis.│
-  │ 4. Multi-Agent & MCP: Model Context Protocol, LangGraph state machines, CrewAI agents. │
-  │ 5. Status: 🟢 Available for AI Engineer Internships & High-Impact Engineering Roles.   │
-  └────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
 ### 🧬 **`pipeline.mmd`**
 
 Comprehensive **AI Engineering Lifecycle**: from data engineering & fine-tuning to high-throughput inference & autonomous agentic systems.
@@ -244,60 +225,6 @@ flowchart LR
 
 </details>
 
-#### ⚡ **`benchmarks.log`**
-
-```text
-$ vllm-benchmark --model mistralai/Mistral-7B-v0.1 --sweep-concurrency 1,16,32,64
-┌──────────────────────────────┬────────────┬─────────────┬──────────────┬──────────────┐
-│ Serving Stack / Precision    │ Users (BS) │ TTFT (ms)   │ TPS (tok/s)  │ VRAM Peak    │
-├──────────────────────────────┼────────────┼─────────────┼──────────────┼──────────────┤
-│ Naive HF Pipeline (FP16)     │ 16         │ 142.6 ms    │ 28.4 tok/s   │ 19.8 GB      │
-│ vLLM + PagedAttention (FP16) │ 16         │ 32.1 ms     │ 118.5 tok/s  │ 12.4 GB      │
-│ vLLM + AWQ Quantized (INT4)  │ 32         │ 18.2 ms     │ 142.8 tok/s  │ 6.8 GB       │
-│ vLLM + FP8 KV-Cache (INT4)   │ 64         │ 21.4 ms     │ 189.2 tok/s  │ 7.9 GB       │
-└──────────────────────────────┴────────────┴─────────────┴──────────────┴──────────────┘
-✓ Metrics: 4.8x higher throughput · 65% VRAM saved · zero output quality degradation
-```
-
-#### 📝 **`notes/engineering_logs.md`**
-
-```text
-$ ls -lh ~/notes/llm_engineering/
--rw-r--r-- 1 tanish ai  4.2K  llm_gateways_multi_provider_routing_and_failover.md
--rw-r--r-- 1 tanish ai  3.8K  evaluating_perplexity_drift_in_awq_int4_quantization.md
--rw-r--r-- 1 tanish ai  5.1K  paged_attention_kernel_vs_kv_cache_fragmentation.md
--rw-r--r-- 1 tanish ai  3.4K  mcp_agent_architecture_autonomous_code_intelligence.md
--rw-r--r-- 1 tanish ai  4.6K  lora_rank_selection_and_target_module_ablations.md
-```
-
-#### 🗂️ **`also_built.py`**
-
-```python
-also_built = {
-    "LLM-Memory-Optimizer":        "FP16 / INT8 / INT4 profiling: VRAM, TPS, TTFT, WikiText-2 perplexity drift",
-    "Lora-FineTuning-Lab":         "full fine-tuning vs LoRA on DistilBERT, rank + target-module ablations",
-    "LangChain-with-LLM-Gateway":  "agents, tools, streaming, structured outputs, middleware, human-in-the-loop",
-    "College-Times":               "AKGEC campus platform: real-time chat, news, events, gamification",
-    "CineForge-AI":                "multi-agent AI film production platform",
-    "Make-My-Trip":                "AI-first travel platform, LangGraph assistant, LLM router with failover",
-    "Crash-Guard":                 "two-wheeler crash detection + emergency response",
-    "Leetcode-Solution":           "DSA solutions, clean & efficient",
-}
-```
-
-<div align="center">
-
-[![LLM-Memory-Optimizer](https://img.shields.io/badge/LLM--Memory--Optimizer-0F172A?style=for-the-badge&logo=github)](https://github.com/Tanish-o9/LLM-Memory-Optimizer)
-[![Lora-FineTuning-Lab](https://img.shields.io/badge/Lora--FineTuning--Lab-0F172A?style=for-the-badge&logo=github)](https://github.com/Tanish-o9/Lora-FineTuning-Lab)
-[![LangChain-with-LLM-Gateway](https://img.shields.io/badge/LangChain--with--LLM--Gateway-0F172A?style=for-the-badge&logo=github)](https://github.com/Tanish-o9/LangChain-with-LLM-Gateway)
-[![College-Times](https://img.shields.io/badge/College--Times-0F172A?style=for-the-badge&logo=github)](https://github.com/Tanish-o9/College-Times)
-[![CineForge-AI](https://img.shields.io/badge/CineForge--AI-0F172A?style=for-the-badge&logo=github)](https://github.com/Tanish-o9/CineForge-AI)
-[![Make-My-Trip](https://img.shields.io/badge/Make--My--Trip-0F172A?style=for-the-badge&logo=github)](https://github.com/Tanish-o9/Make-My-Trip)
-[![Crash-Guard](https://img.shields.io/badge/Crash--Guard-0F172A?style=for-the-badge&logo=github)](https://github.com/Tanish-o9/Crash-Guard)
-[![Leetcode-Solution](https://img.shields.io/badge/Leetcode--Solution-0F172A?style=for-the-badge&logo=github)](https://github.com/Tanish-o9/Leetcode-Solution)
-
-</div>
-
 ---
 
 ### 🛠️ **`stack.yaml`**
@@ -327,41 +254,6 @@ languages:          [Python, C, C++, JavaScript, TypeScript]
 
 ---
 
-### 💻 **`neofetch.sh`** (AI Environment Specs)
-
-```bash
-$ neofetch --ai
-       _      _     _      tanish@ai-workstation
-     / \    / \   / \     ----------------------
-    ( A )  ( I ) ( O )    OS:        Ubuntu 24.04 LTS (x86_64) / WSL2
-     \ /    \ /   \ /     Runtime:   CUDA 12.4 · PyTorch 2.6 · Python 3.12
-      v      v     v      Engines:   vLLM 0.6.x · HuggingFace · Ollama · Torch-Pruning
-                          Agentic:   LangGraph · LangChain · CrewAI · FastMCP
-                          Routing:   LLM Gateway · Multi-Provider Router · FastAPI
-                          Evals:     WikiText-2 Perplexity · PII/Dedup · Custom Evals
-                          Host:      Cloud Computing Cell (CCC), AKGEC
-```
-
----
-
-### 🎯 **`roadmap.py`**
-
-```python
-roadmap = {
-    "Agentic AI & Multi-Agent Systems":   "████████░░ 80%",
-    "LLM Orchestration & AI Memory":      "███████░░░ 70%",
-    "RAG & Vector Search":                "███████░░░ 70%",
-    "DSA (Arrays · Trees · Graphs · DP)": "██████░░░░ 60%",
-}
-
-for skill, progress in roadmap.items():
-    print(f"{skill:<36} {progress}")
-```
-
-📚 **Daily practice** → [**LeetCode**](https://leetcode.com/u/Tanish_Kumar_123/) · [**DSA Repository**](https://github.com/Tanish-o9/Leetcode-Solution)
-
----
-
 ### 📊 **`stats.log`**
 
 <div align="center">
@@ -370,25 +262,6 @@ for skill, progress in roadmap.items():
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tanish-o9&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="top languages"/>
 <br/>
 <img src="https://streak-stats.demolab.com?user=Tanish-o9&theme=tokyonight&hide_border=true" height="165" alt="streak"/>
-
-</div>
-
----
-
-### 🐍 **`snake.py`** (Contribution Activity)
-
-```bash
-$ python -m arcade.snake --target=contributions --palette=github-dark
-[ACTIVE] 🟢 Eating 370+ contributions across the grid!
-```
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg">
-  <img alt="GitHub Contribution Grid Snake" src="./assets/github-contribution-grid-snake-dark.svg" width="100%"/>
-</picture>
 
 </div>
 
